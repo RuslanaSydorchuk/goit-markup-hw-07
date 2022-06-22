@@ -1,0 +1,33 @@
+@mixin logo {
+
+    font-family: $minor-font;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.header-logo  {
+    display: flex;
+
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 92px;
+
+    color: $title-text-color;
+
+    @include logo;
+}
+
+.logo-accent{
+    color: $accent-color;
+}
+
+.footer-logo {
+    padding: 0;
+    margin-bottom: 20px;
+
+    color: $minor-color;
+
+    @include logo;
+}

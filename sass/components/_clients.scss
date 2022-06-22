@@ -1,0 +1,46 @@
+.clients__list {
+    display: flex;
+}
+
+.clients__item {
+    margin-right: 30px;
+    margin-left: 0;
+    padding: 0;
+
+    width: calc ((1170px 150px) / 6);
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.clients__link {
+    width: 170px;
+    height: 92px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: $main-icons-color;
+
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        fill: $accent-color;
+        border-color: $accent-color;
+    }
+}
+
+.clients__icon {
+    margin: 0;
+    padding: 0;
+    
+    max-width: 100%;
+    display: block;
+}
