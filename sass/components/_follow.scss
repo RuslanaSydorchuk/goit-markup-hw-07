@@ -26,6 +26,8 @@
         border: 1px solid $accent-color;
             outline: none;
     }
+
+
 }
 
 .follow-field__label {
@@ -39,14 +41,14 @@
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-}
 
-.follow-field__input:focus+.follow-field__label {
-    opacity: 0;
-}
+    .follow-field__input:focus + &{
+        opacity: 0;
+    }
 
-.follow-field__input:not(:placeholder-shown)+.email-label {
-    opacity: 0;
+    .follow-field__input:not(:placeholder-shown) + &{
+        opacity: 0;
+    }
 }
 
 .follow__button {
@@ -58,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;

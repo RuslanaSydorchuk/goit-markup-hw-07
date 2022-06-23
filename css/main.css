@@ -765,13 +765,11 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form__input-confirmation:checked + .form__icon-confirmation {
   background-color: #2196F3;
   border: 2px solid #2196F3;
   background-origin: border-box;
 }
-
 .form__input-confirmation:focus + .form__icon-confirmation {
   border-color: #2196F3;
 }
@@ -1228,20 +1226,16 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
 .follow-field__input:focus + .follow-field__label {
   opacity: 0;
 }
-
-.follow-field__input:not(:-moz-placeholder-shown) + .email-label {
+.follow-field__input:not(:-moz-placeholder-shown) + .follow-field__label {
   opacity: 0;
 }
-
-.follow-field__input:not(:-ms-input-placeholder) + .email-label {
+.follow-field__input:not(:-ms-input-placeholder) + .follow-field__label {
   opacity: 0;
 }
-
-.follow-field__input:not(:placeholder-shown) + .email-label {
+.follow-field__input:not(:placeholder-shown) + .follow-field__label {
   opacity: 0;
 }
 
