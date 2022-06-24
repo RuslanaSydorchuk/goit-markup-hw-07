@@ -21,9 +21,8 @@
     top: 8px;
     right: 8px;
     position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+    @include flexCenter;
 
     transition-property: cursor, fill, filter;
     transition-duration: 250ms;

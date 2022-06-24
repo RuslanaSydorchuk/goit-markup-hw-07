@@ -1,6 +1,6 @@
 .member-social-links {
-    display: flex;
-    justify-content: center;
+    display: $type;
+    justify-content: $main-axis;
 }
 
 .member-social-links__item {
@@ -19,9 +19,7 @@
     border-radius: 50%;
     color: $main-icons-color;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flexCenter;
 
     transition-property: color, background-color;
     transition-duration: 250ms;

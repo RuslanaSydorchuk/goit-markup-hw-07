@@ -3,7 +3,7 @@
 }
 
 .members__list {
-    display: flex;
+    display: $type;
 }
 
 .members__item {

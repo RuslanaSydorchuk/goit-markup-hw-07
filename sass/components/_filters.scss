@@ -1,6 +1,6 @@
 .filters__list{
-    display: flex;
-    justify-content: center;
+    display: $type;
+    justify-content: $main-axis;
 
     margin-bottom: 50px;
 }

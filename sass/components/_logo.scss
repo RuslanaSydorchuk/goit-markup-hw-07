@@ -1,5 +1,5 @@
 .header-logo  {
-    display: flex;
+    display: $type;
 
     padding-top: 24px;
     padding-bottom: 25px;
@@ -21,6 +21,5 @@
     display: block;
     color: $minor-color;
     
-
     @include logo;
 }

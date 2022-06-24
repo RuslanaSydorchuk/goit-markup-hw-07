@@ -1,5 +1,5 @@
 .follow {
-    display: flex;
+    display: $type
 }
 
 .follow-field {
@@ -26,8 +26,6 @@
         border: 1px solid $accent-color;
             outline: none;
     }
-
-
 }
 
 .follow-field__label {
@@ -57,9 +55,7 @@
     width: 200px;
     height: 50px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
 
     font-weight: 700;
     font-size: 16px;

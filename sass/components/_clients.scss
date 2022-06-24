@@ -1,5 +1,5 @@
 .clients__list {
-    display: flex;
+    display: $type;
 }
 
 .clients__item {
@@ -18,9 +18,7 @@
     width: 170px;
     height: 92px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;

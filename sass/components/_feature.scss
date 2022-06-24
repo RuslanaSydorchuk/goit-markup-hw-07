@@ -9,9 +9,7 @@
     background-color: #F5F4FA;
     height: 120px;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flexCenter;
 }
 
 .feature__icon{

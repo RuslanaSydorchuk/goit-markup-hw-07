@@ -1,5 +1,5 @@
 .contact-nav {
-    display: flex;
+    display: $type;
     margin-left: auto;
 }
 .contact-nav__item{
@@ -20,8 +20,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    display: flex;
-    align-items: center;
+    display: $type;
+    align-items: $cross-axis;
 
     &:hover,
     &:focus{

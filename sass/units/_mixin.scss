@@ -1,8 +1,14 @@
-@mixin logo {
+@mixin logo{
 
     font-family: $minor-font;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+@mixin flexCenter{
+    display: $type;
+    justify-content: $main-axis;
+    align-items: $cross-axis;
 }
